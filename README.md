@@ -4,6 +4,8 @@ Teach your AI agents what to remember, what to reject, and how to evolve.
 
 SkillBook is a local-first CLI that turns articles, repos, feedback, and project context into reviewed AI Skill updates. It does not blindly summarize sources or dump everything into memory. It builds proposals first.
 
+[Watch the 18-second demo video](docs/assets/skillbook-demo.mp4)
+
 ```txt
 User profile + project context + skill gaps
 -> library recommendations
