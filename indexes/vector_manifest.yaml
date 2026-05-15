@@ -1,0 +1,22 @@
+version: 1
+implemented: false
+strategy:
+  - 第一版不接向量库
+  - 先用 Markdown + YAML + 索引 + LLM 判断
+  - 第二版可接 Chroma / Qdrant / LanceDB / SQLite-vss
+priority_inputs:
+  - source_card 摘要
+  - Skill 摘要
+  - rules
+  - examples
+  - evals
+  - warnings
+  - failure cards
+  - user feedback
+  - decisions
+retrieval_order:
+  - metadata filtering
+  - skill_index routing
+  - keyword search
+  - vector recall
+  - LLM final judgment

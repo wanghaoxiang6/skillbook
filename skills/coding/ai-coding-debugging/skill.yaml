@@ -1,0 +1,15 @@
+id: ai-coding-debugging
+name: AI Coding Debugging
+category: coding
+version: 0.1.0
+status: draft
+purpose: Debug AI-generated code with reproduction, evidence, fix, and regression tests.
+target_users: [AI coding agent users]
+trigger_scenarios: [broken build, failing test, reported bug]
+required_inputs: [failure report, relevant files, expected behavior]
+process: [reproduce, minimize, inspect, fix, test]
+constraints: [do not revert unrelated user changes]
+outputs: [fix summary, test evidence]
+quality_checks: [failure reproduced or limitation stated, regression tested]
+sources: [templates/failure_card.template.md]
+metrics: { usage_count: 0, success_count: 0, failure_count: 0, user_corrections: 0, accepted_evolutions: 0, rejected_evolutions: 0 }

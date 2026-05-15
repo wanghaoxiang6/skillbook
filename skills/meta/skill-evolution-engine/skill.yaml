@@ -1,0 +1,15 @@
+id: skill-evolution-engine
+name: Skill Evolution Engine
+category: meta
+version: 0.1.0
+status: active
+purpose: Propose evidence-backed skill evolution from logs and feedback.
+target_users: [solo builders, AI agent users]
+trigger_scenarios: [repeated failures, repeated successes, user correction]
+required_inputs: [usage logs, failure cards, feedback, current skill]
+process: [collect evidence, check thresholds, identify pattern, suggest add/modify/remove/split/merge, generate evolution proposal]
+constraints: [do not evolve from one anecdote, do not auto-merge, include evidence]
+outputs: [evolution_proposal.md]
+quality_checks: [threshold is named, evidence exists, risk is stated]
+sources: [docs/06-evolution-engine.md]
+metrics: { usage_count: 0, success_count: 0, failure_count: 0, user_corrections: 0, accepted_evolutions: 0, rejected_evolutions: 0 }

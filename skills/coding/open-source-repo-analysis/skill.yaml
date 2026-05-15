@@ -1,0 +1,15 @@
+id: open-source-repo-analysis
+name: Open Source Repo Analysis
+category: coding
+version: 0.1.0
+status: active
+purpose: Analyze whether an open-source repo is worth borrowing from for the current project.
+target_users: [builders, TypeScript CLI maintainers]
+trigger_scenarios: [GitHub repo review, README intake, architecture comparison]
+required_inputs: [repo README or user-provided files, current project context]
+process: [identify stack, inspect architecture, find transferable patterns, flag over-design, propose skill material]
+constraints: [do not execute external scripts, do not install dependencies, do not copy blindly]
+outputs: [repo analysis notes, update proposal candidates]
+quality_checks: [stack fit is explicit, risks are explicit, transferable parts are small]
+sources: [docs/08-security-policy.md]
+metrics: { usage_count: 0, success_count: 0, failure_count: 0, user_corrections: 0, accepted_evolutions: 0, rejected_evolutions: 0 }

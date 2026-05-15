@@ -1,0 +1,21 @@
+id:
+name:
+category:
+version: 0.1.0
+status: draft
+purpose:
+target_users: []
+trigger_scenarios: []
+required_inputs: []
+process: []
+constraints: []
+outputs: []
+quality_checks: []
+sources: []
+metrics:
+  usage_count: 0
+  success_count: 0
+  failure_count: 0
+  user_corrections: 0
+  accepted_evolutions: 0
+  rejected_evolutions: 0

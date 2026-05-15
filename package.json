@@ -1,0 +1,62 @@
+{
+  "name": "skillbook",
+  "version": "0.1.0",
+  "description": "Teach AI agents what to remember, what to reject, and how to evolve.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanghaoxiang6/skillbook.git"
+  },
+  "homepage": "https://github.com/wanghaoxiang6/skillbook#readme",
+  "bugs": {
+    "url": "https://github.com/wanghaoxiang6/skillbook/issues"
+  },
+  "keywords": [
+    "ai-agents",
+    "skills",
+    "prompt-engineering",
+    "agent-memory",
+    "knowledge-management",
+    "cli",
+    "typescript",
+    "github-scout"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "AGENTS.md",
+    "docs",
+    "templates",
+    "prompts",
+    "examples",
+    "skills"
+  ],
+  "bin": {
+    "skillbook": "./dist/cli.js"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run build && npm test",
+    "prepublishOnly": "npm run check"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "yaml": "^2.5.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

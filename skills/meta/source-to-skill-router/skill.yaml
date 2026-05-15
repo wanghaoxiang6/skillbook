@@ -1,0 +1,15 @@
+id: source-to-skill-router
+name: Source-to-Skill Router
+category: meta
+version: 0.1.0
+status: active
+purpose: Judge whether an external source should update the SkillBook skill tree.
+target_users: [solo builders, AI agent users]
+trigger_scenarios: [external source intake, update proposal creation]
+required_inputs: [source card, context book, skill index]
+process: [read context, inspect source card, score relevance, match skill, separate rules/examples/evals/warnings/references, generate proposal]
+constraints: [do not auto-merge, allow rejection, do not let source override decisions]
+outputs: [update_proposal.md]
+quality_checks: [decision is explicit, risks are stated, every rule is testable]
+sources: [docs/03-intake-protocol.md]
+metrics: { usage_count: 0, success_count: 0, failure_count: 0, user_corrections: 0, accepted_evolutions: 0, rejected_evolutions: 0 }

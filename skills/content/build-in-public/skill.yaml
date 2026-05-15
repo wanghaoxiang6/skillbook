@@ -1,0 +1,15 @@
+id: build-in-public
+name: Build in Public
+category: content
+version: 0.1.0
+status: active
+purpose: Turn real project progress into honest public content.
+target_users: [solo builders, founders]
+trigger_scenarios: [shipping update, failure story, product progress]
+required_inputs: [project event, audience, platform]
+process: [find concrete moment, identify tension, explain in plain language, avoid hype, draft post or script]
+constraints: [do not exaggerate, do not fake traction, do not hide uncertainty]
+outputs: [post draft, video angle, content notes]
+quality_checks: [truthful, specific, understandable to non-experts]
+sources: [docs/01-positioning.md]
+metrics: { usage_count: 0, success_count: 0, failure_count: 0, user_corrections: 0, accepted_evolutions: 0, rejected_evolutions: 0 }

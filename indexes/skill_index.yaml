@@ -1,0 +1,54 @@
+skills:
+  - id: source-to-skill-router
+    name: Source-to-Skill Router
+    category: meta
+    path: skills/meta/source-to-skill-router
+    summary: Routes external sources into reject/reference/update/create decisions.
+    keywords:
+      - source
+      - skill
+      - intake
+      - proposal
+      - router
+      - 资料
+      - 入库
+    status: active
+  - id: skill-evolution-engine
+    name: Skill Evolution Engine
+    category: meta
+    path: skills/meta/skill-evolution-engine
+    summary: Turns usage logs, failures, and feedback into evolution proposals.
+    keywords:
+      - evolution
+      - logs
+      - failure
+      - feedback
+      - 进化
+    status: active
+  - id: open-source-repo-analysis
+    name: Open Source Repo Analysis
+    category: coding
+    path: skills/coding/open-source-repo-analysis
+    summary: Analyzes whether a repository is worth borrowing from.
+    keywords:
+      - github
+      - repo
+      - architecture
+      - typescript
+      - coding
+      - 开源
+    status: active
+  - id: build-in-public
+    name: Build in Public
+    category: content
+    path: skills/content/build-in-public
+    summary: Turns building progress into honest public content.
+    keywords:
+      - content
+      - video
+      - post
+      - build
+      - public
+      - 内容
+      - 短视频
+    status: active

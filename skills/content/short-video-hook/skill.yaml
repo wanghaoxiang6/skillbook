@@ -1,0 +1,15 @@
+id: short-video-hook
+name: Short Video Hook
+category: content
+version: 0.1.0
+status: draft
+purpose: Create truthful short-video hooks from project moments.
+target_users: [builders, content creators]
+trigger_scenarios: [short video script, opening line brainstorming]
+required_inputs: [topic, audience, proof point]
+process: [find tension, write plain hook, avoid hype, connect to evidence]
+constraints: [no false promises, no bait-and-switch]
+outputs: [hook options]
+quality_checks: [specific, truthful, quick to understand]
+sources: [skills/content/build-in-public/SKILL.md]
+metrics: { usage_count: 0, success_count: 0, failure_count: 0, user_corrections: 0, accepted_evolutions: 0, rejected_evolutions: 0 }
