@@ -1,5 +1,9 @@
 # Demo
 
+The README uses `docs/assets/skillbook-demo.gif` so the demo plays directly on the GitHub repository homepage.
+
+The higher-quality MP4 lives at `docs/assets/skillbook-demo.mp4`.
+
 Run:
 
 ```bash
@@ -23,9 +27,9 @@ SkillBook demo completed. Generated:
 
 The demo uses local files and curated library candidates. It does not clone repositories, execute third-party code, require GitHub tokens, or read private repositories.
 
-## Recording A GIF
+## Updating The GIF
 
-Suggested command sequence for a terminal GIF:
+The current animation is generated with Remotion and shows this command sequence:
 
 ```bash
 npx tsx src/cli.ts demo
@@ -33,10 +37,4 @@ npx tsx src/cli.ts status
 npx tsx src/cli.ts doctor
 ```
 
-Recommended tools:
-
-- VHS by Charmbracelet
-- asciinema
-- ScreenToGif on Windows
-
-Keep the recording under 30 seconds and show only the generated artifact paths.
+Keep future recordings under 30 seconds, show the generated artifact paths, and keep the GIF small enough for a fast README load.
