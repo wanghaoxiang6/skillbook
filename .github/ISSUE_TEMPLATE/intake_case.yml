@@ -1,0 +1,36 @@
+name: Intake case
+description: Share a real source that SkillBook should route better.
+title: "[Intake case]: "
+labels: ["intake-case"]
+body:
+  - type: input
+    id: source-url
+    attributes:
+      label: Public source URL
+      description: Prefer public GitHub README, docs, article, or transcript links.
+    validations:
+      required: true
+  - type: textarea
+    id: expectation
+    attributes:
+      label: What should SkillBook decide?
+      description: Should it accept, partially accept, reject, or ask questions?
+    validations:
+      required: true
+  - type: textarea
+    id: target
+    attributes:
+      label: Expected Skill target
+      description: Which existing or new Skill should this source affect?
+  - type: textarea
+    id: risk
+    attributes:
+      label: Pollution or degradation risk
+      description: What should not be absorbed from this source?
+  - type: checkboxes
+    id: public
+    attributes:
+      label: Privacy check
+      options:
+        - label: The source is public or safe to discuss in an open GitHub issue.
+          required: true

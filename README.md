@@ -2,6 +2,8 @@
 
 Teach your AI agents what to remember, what to reject, and how to evolve.
 
+[![CI](https://github.com/wanghaoxiang6/skillbook/actions/workflows/ci.yml/badge.svg)](https://github.com/wanghaoxiang6/skillbook/actions/workflows/ci.yml)
+
 SkillBook is a local-first CLI that turns articles, repos, feedback, and project context into reviewed AI Skill updates. It does not blindly summarize sources or dump everything into memory. It builds proposals first.
 
 ![SkillBook CLI demo](docs/assets/skillbook-demo.gif)
@@ -46,6 +48,13 @@ The demo creates:
 - a public-library recommendation report
 - a Source Card
 - an Update Proposal
+
+## Project Links
+
+- [Roadmap](ROADMAP.md)
+- [Demo notes](docs/demo.md)
+- [Launch post drafts](docs/launch-posts.md)
+- [Real intake case: basic-memory-skills](examples/basic-memory-skills-case.md)
 
 ## First Real Use
 

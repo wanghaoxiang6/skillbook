@@ -1,0 +1,39 @@
+name: Feature request
+description: Suggest a focused improvement.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem should this solve?
+      description: Describe the workflow pain, not only the desired implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed behavior
+      description: What should SkillBook do?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Intake
+        - Source Card
+        - Update Proposal
+        - Profile Evolution
+        - Library Scout
+        - Export Adapters
+        - CLI UX
+        - Docs
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Example input or command
+      description: Add a small example if possible.

@@ -1,0 +1,40 @@
+name: Bug report
+description: Report something that is broken or confusing.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the exact commands and relevant files.
+      placeholder: |
+        1. npm install
+        2. npm run build
+        3. npx tsx src/cli.ts intake examples/coding-source-example.md
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: SkillBook version or commit
+      placeholder: v0.1.0 or commit hash
+  - type: textarea
+    id: output
+    attributes:
+      label: Error output
+      render: shell
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I did not include secrets, .env content, or private source material.
+          required: true
